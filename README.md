@@ -1,12 +1,11 @@
-# [ECCV 2024] Textual Query-Driven Mask Transformer for Domain Generalized Segmentation
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textual-query-driven-mask-transformer-for/domain-generalization-on-gta5-to-cityscapes)](https://paperswithcode.com/sota/domain-generalization-on-gta5-to-cityscapes?p=textual-query-driven-mask-transformer-for) <br />
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textual-query-driven-mask-transformer-for/domain-generalization-on-gta-to-avg)](https://paperswithcode.com/sota/domain-generalization-on-gta-to-avg?p=textual-query-driven-mask-transformer-for) <br />
-### [**Textual Query-Driven Mask Transformer for Domain Generalized Segmentation**](https://arxiv.org/abs/2407.09033)
->[Byeonghyun Pak](https://byeonghyunpak.github.io/)\*, [Byeongju Woo](https://byeongjuwoo.github.io/)\*, [Sunghwan Kim](https://sunghwan.me/)\*, [Dae-hwan Kim](https://scholar.google.com/citations?hl=en&user=_5Scn8YAAAAJ), [Hoseong Kim](https://scholar.google.com/citations?hl=en&user=Zy7Sz5UAAAAJ)†\
->Agency for Defense Development\
->ECCV 2024
+# [ICCV 2025]  Exploiting Domain Properties in Language-Driven Domain Generalization for Semantic Segmentation
 
-#### [[`Project Page`](https://byeonghyunpak.github.io/tqdm/)] [[`Paper`](https://arxiv.org/abs/2407.09033)]
+### [** Exploiting Domain Properties in Language-Driven Domain Generalization for Semantic Segmentation**](https://openaccess.thecvf.com/content/ICCV2025/html/Jeon_Exploiting_Domain_Properties_in_Language-Driven_Domain_Generalization_for_Semantic_Segmentation_ICCV_2025_paper.html)
+>[Seogkyu Jeon], [Kibeom Hong]†, [Hyeran Byun]†\
+>Yonsei University, Sookmyung Women's University\
+>ICCV 2025
+
+#### [[`Paper`](https://arxiv.org/abs/2407.09033](https://openaccess.thecvf.com/content/ICCV2025/html/Jeon_Exploiting_Domain_Properties_in_Language-Driven_Domain_Generalization_for_Semantic_Segmentation_ICCV_2025_paper.html)]
 
 ## Environment
 ### Requirements
