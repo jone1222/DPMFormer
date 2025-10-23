@@ -5,8 +5,6 @@
 >Yonsei University, Sookmyung Women's University\
 >ICCV 2025
 
-#### [[`Paper`](https://arxiv.org/abs/2407.09033](https://openaccess.thecvf.com/content/ICCV2025/html/Jeon_Exploiting_Domain_Properties_in_Language-Driven_Domain_Generalization_for_Semantic_Segmentation_ICCV_2025_paper.html)]
-
 ## Environment
 ### Requirements
 - The requirements can be installed with:
@@ -28,13 +26,13 @@
   | EVA02-CLIP | `EVA02_CLIP_L_336_psz14_s6B` |[official repo](https://github.com/baaivision/EVA/tree/master/EVA-CLIP#eva-02-clip-series)|
 
 ### Checkpoints
-- You can download **tqdm** model checkpoints:
+- You can download **dpmformer** model checkpoints:
 
   | Model | Config | Link |
   |-----|-----|:-----:|
   | `tqdm-clip-vit-b-gta` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1PAnjxDUQ1nrUkDne1jflz_2BJQgtoqmZ/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-gta` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1GHR0R5A06oPlRsM1XRu1zmFUJa2_WOSi/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-city` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-4_20k-c2b-512.py) |[download link](https://drive.google.com/file/d/13taMQNPWIP4yrzUsWvXBG7LMY5lsbOp-/view?usp=drive_link)|
+  | `tqdm-eva02-clip-vit-l-gta` | [config] TBD |[download link] TBD |
+
 
 ## Datasets
 - To set up datasets, please follow [the official **TLDR** repo](https://github.com/ssssshwan/TLDR/tree/main?tab=readme-ov-file#setup-datasets).
