@@ -10,8 +10,8 @@
 - The requirements can be installed with:
   
   ```bash
-  conda create -n tqdm python=3.9 numpy=1.26.4
-  conda activate tqdm
+  conda create -n dpmformer python=3.9 numpy=1.26.4
+  conda activate dpmformer
   conda install pytorch==2.0.1 torchvision==0.15.2 pytorch-cuda=11.8 -c pytorch -c nvidia
   pip install -r requirements.txt
   pip install xformers==0.0.20
@@ -30,13 +30,13 @@
 
   | Model | Config | Link |
   |-----|-----|:-----:|
-  | `tqdm-clip-vit-b-gta` | [config](https://github.com/jone1222/DPMFormer/blob/main/configs/dpmformer/dpmformer_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1xijvHa6e5nLHDcI2RvJBLtGOWKVitAXA/view?usp=sharing)|
-  | `tqdm-eva02-clip-vit-l-gta` | TBD | TBD |
+  | `dpmformer-clip-vit-b-gta` | [config](https://github.com/jone1222/DPMFormer/blob/main/configs/dpmformer/dpmformer_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1xijvHa6e5nLHDcI2RvJBLtGOWKVitAXA/view?usp=sharing)|
+  | `dpmformer-eva02-clip-vit-l-gta` | TBD | TBD |
 
 
 ## Datasets
 - To set up datasets, please follow [the official **TLDR** repo](https://github.com/ssssshwan/TLDR/tree/main?tab=readme-ov-file#setup-datasets).
-- After downloading the datasets, edit the data folder root in [the dataset config files](https://github.com/ByeongHyunPak/tqdm/tree/main/configs/_base_/datasets) following your environment.
+- After downloading the datasets, edit the data folder root in [the dataset config files](https://github.com/jone1222/DPMFormer/tree/main/configs/_base_/datasets) following your environment.
   
   ```python
   src_dataset_dict = dict(..., data_root='[YOUR_DATA_FOLDER_ROOT]', ...)
