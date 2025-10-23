@@ -30,8 +30,8 @@
 
   | Model | Config | Link |
   |-----|-----|:-----:|
-  | `tqdm-clip-vit-b-gta` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1PAnjxDUQ1nrUkDne1jflz_2BJQgtoqmZ/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-gta` | [config] TBD |[download link] TBD |
+  | `tqdm-clip-vit-b-gta` | [config](https://github.com/jone1222/DPMFormer/blob/main/configs/dpmformer/dpmformer_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1xijvHa6e5nLHDcI2RvJBLtGOWKVitAXA/view?usp=sharing)|
+  | `tqdm-eva02-clip-vit-l-gta` | TBD | TBD |
 
 
 ## Datasets
@@ -42,35 +42,17 @@
   src_dataset_dict = dict(..., data_root='[YOUR_DATA_FOLDER_ROOT]', ...)
   tgt_dataset_dict = dict(..., data_root='[YOUR_DATA_FOLDER_ROOT]', ...)
   ```
-## Train
- ```
- bash dist_train.sh configs/[TRAIN_CONFIG] [NUM_GPUs]
-```
-  - `[TRAIN_CONFIG]`: train configuration (e.g., `tqdm/tqdm_eve_vit-l_1e-5_20k-g2c-512.py`)
-  - `[NUM_GPUs]`: the number of the GPUs
-## Test
-```
-bash dist_test.sh configs/[TEST_CONFIG] work_dirs/[MODEL] [NUM_GPUs] --eval mIoU
-```
-  - `[TRAIN_CONFIG]`: test configuration (e.g., `tqdm/tqdm_eve_vit-l_1e-5_20k-g2b-512.py`)
-  - `[MODEL]`: model checkpoint (e.g., `tqdm_eve_vit-l_1e-5_20k-g2c-512/epoch_last.pth`)
-  - `[NUM_GPUs]`: the number of the GPUs
- 
-## The Most Relevant Files
-- [configs/tqdm/*](https://github.com/ByeongHyunPak/tqdm/tree/main/configs/tqdm) - Config files for the final tqdm
-- [models/segmentors/*](https://github.com/ByeongHyunPak/tqdm/tree/main/models/segmentors) - Overall tqdm framework
-- [mmseg/models/utils/assigner.py](https://github.com/ByeongHyunPak/tqdm/blob/main/mmseg/models/utils/assigner.py#L168) - Implementation of fixed matching
-- [mmseg/models/decode_heads/tqdm_head.py](https://github.com/ByeongHyunPak/tqdm/blob/main/mmseg/models/decode_heads/tqdm_head.py) - Our textual object query-based segmentation head
-- [mmseg/models/plugins/tqdm_msdeformattn_pixel_decoder.py](https://github.com/ByeongHyunPak/tqdm/blob/main/mmseg/models/plugins/tqdm_msdeformattn_pixel_decoder.py) - Our pixel decoder with *text-to-pixel attention*
+## Train & Test
+- Check scripts in the "scripts/"
 
 ## Citation
 If you find our code helpful, please cite our paper:
 ```bibtex
-@article{pak2024textual,
-  title     = {Textual Query-Driven Mask Transformer for Domain Generalized Segmentation},
-  author    = {Pak, Byeonghyun and Woo, Byeongju and Kim, Sunghwan and Kim, Dae-hwan and Kim, Hoseong},
-  journal   = {arXiv preprint arXiv:2407.09033},
-  year      = {2024}
+@article{jeon2025dpm,
+  title     = {Exploiting Domain Properties in Language-Driven Domain Generalization for Semantic Segmentation},
+  author    = {Jeon, Seogkyu and Hong, Kibeom, and Byun, Hyeran},
+  journal   = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year      = {2025}
 }
 ```
 
