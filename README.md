@@ -48,11 +48,12 @@
 ## Citation
 If you find our code helpful, please cite our paper:
 ```bibtex
-@article{jeon2025dpm,
-  title     = {Exploiting Domain Properties in Language-Driven Domain Generalization for Semantic Segmentation},
-  author    = {Jeon, Seogkyu and Hong, Kibeom, and Byun, Hyeran},
-  journal   = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  year      = {2025}
+@inproceedings{jeon2025exploiting,
+  title={Exploiting Domain Properties in Language-Driven Domain Generalization for Semantic Segmentation},
+  author={Jeon, Seogkyu and Hong, Kibeom and Byun, Hyeran},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={20791--20801},
+  year={2025}
 }
 ```
 
