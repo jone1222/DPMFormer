@@ -61,7 +61,7 @@ class dpmformer_EVA_CLIP(BaseSegmentor):
                  init_cfg=None,
                  **args):
 
-        super(metanet_contra_aug_tqdm_EVA_CLIP, self).__init__(init_cfg)
+        super(dpmformer_EVA_CLIP, self).__init__(init_cfg)
 
         self.tau = 0.07
         self.train_cfg = train_cfg

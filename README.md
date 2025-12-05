@@ -31,7 +31,7 @@
   | Model | Config | Link |
   |-----|-----|:-----:|
   | `dpmformer-clip-vit-b-gta` | [config](https://github.com/jone1222/DPMFormer/blob/main/configs/dpmformer/dpmformer_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1xijvHa6e5nLHDcI2RvJBLtGOWKVitAXA/view?usp=sharing)|
-  | `dpmformer-eva02-clip-vit-l-gta` | To be available |[download link](https://drive.google.com/file/d/1DvzZ36tAD0WM4_g3pJIrvs6cR2STDHDA/view?usp=sharing)|
+  | `dpmformer-eva02-clip-vit-l-gta` | [config](https://github.com/jone1222/DPMFormer/blob/main/configs/dpmformer/dpmformer_eva_vit-l_1e-4_bs4_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1DvzZ36tAD0WM4_g3pJIrvs6cR2STDHDA/view?usp=sharing)|
 
 
 ## Datasets
